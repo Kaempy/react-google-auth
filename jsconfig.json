@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@public/*": ["./public/*"],
+      "@components/*": ["./src/components/*"]
+    },
+    "allowJs": true,
+    "strict": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "preserve"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
